@@ -1,10 +1,11 @@
 ﻿namespace StaticExercise
 {
-    public class Program
+    public static class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var celsius = TempConverter.FahrenheitToCelsius(68);
+            Console.WriteLine($"celsius {celsius}");
         }
     }
 }
